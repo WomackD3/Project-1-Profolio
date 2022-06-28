@@ -1,0 +1,40 @@
+body, html {
+    box-sizing: border-box;
+    height: 100vh;
+
+}
+body {
+    background: #3e84f8;
+    color: red;
+    display: grid;
+    grid-template-areas: ; " header"
+                            "body"
+                            "section"
+                            "main"
+                            "footer"
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 5);
+    margin: 0;
+    text-align: center;
+}
+
+title {
+    font-size: 3rem;
+}
+button {
+    background: yellow;
+    color: #3e84f8;
+}
+.Mack {
+
+    width: 400px;
+}
+
+@media (max-width: 500px) {
+    body {
+      border: 2px solid #0f0;
+        box-sizing: border-box;
+        color: #0f0;
+        cursor: pointer;
+}
+}
